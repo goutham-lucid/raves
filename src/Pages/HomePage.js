@@ -2,6 +2,7 @@ import React from "react";
 import "./homePage.css";
 import RavesLogo from "../assets/RAVES-logo.png";
 
+
 const HomePage = () => {
   return (
     <div className="dark-theme overflow-x-hidden">
@@ -34,6 +35,9 @@ const HomePage = () => {
             <h1>form</h1>
           </div>
         </div>
+
+
+
       </div>
     </div>
   );
