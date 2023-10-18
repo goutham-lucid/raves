@@ -1,6 +1,7 @@
 .dark-theme {
-  background: black;
+  background: rgb(26, 25, 25);
   color: white;
+  padding: 0 5vw;
 }
 
 .logo {
@@ -16,6 +17,17 @@
   font-weight: bolder;
 }
 
-.demo {
-  border: 2px solid red;
+.form-body{
+    background: #343A40;}
+
+.company-primary-btn {
+    background-color: #ff6600 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.input-txt{
+    color: #f5ebeb;
+    background: #212529;
+    border: none;
 }

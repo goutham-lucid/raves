@@ -14,13 +14,11 @@ const Timer = () => {
         { label: "Sec", value: seconds },
       ];
       return (
-        <div className="countdown-timer countdown-item   flex align-items-center justify-content-center gap-5 text-center">
+        <div className="flex align-items-center justify-content-start mb-4 gap-5 text-center">
           {countdownItems.map((item, index) => (
             <div key={index} className=" flex flex-column align-items-center">
-              <div className="countdown-value text-5xl font-bold">
-                {item.value}
-              </div>
-              <div className="countdown-label text-xs">{item.label}</div>
+              <div className="text-5xl font-bold">{item.value}</div>
+              <div className="text-xs">{item.label}</div>
             </div>
           ))}
         </div>
