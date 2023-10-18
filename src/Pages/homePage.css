@@ -1,5 +1,21 @@
-.dark-theme{
-    background: black;
-    min-height: 100vh;
-    color: white;
+.dark-theme {
+  background: black;
+  color: white;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+  background-size: cover;
+}
+
+.company-dark-btn {
+  background-color: #ff6600;
+  color: rgb(41, 40, 40);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.demo {
+  border: 2px solid red;
 }
